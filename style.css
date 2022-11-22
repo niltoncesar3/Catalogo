@@ -315,7 +315,9 @@ section .card-item {
 
 .title-wrapper-features {
   padding: 20px 0px;
+  text-align: center;
 }
+
 
 .feature-card-block {
   max-width: 1000px;
@@ -348,20 +350,21 @@ section .card-item {
 }
 
 .feature-card-item img {
-  width: 64px;
-  height: 64px;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
 }
 
 /* Footer */
 footer {
   width: 100%;
-  height: 250px;
+  height: 200px;
 }
 
 footer .main {
   width: 100%;
   height: 200px;
-  background: var(--orange);
+  background: rgb(240, 40, 140);
   padding: 20px 10px;
 }
 
@@ -380,7 +383,8 @@ footer .main {
 .footer-social {
   color: white;
   height: 100%;
-  min-height: 100px;
+  min-height: 10px;
+  cursor: pointer;
 }
 
 .footer-links h4 {
